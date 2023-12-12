@@ -1,0 +1,52 @@
+$darkColor: #000000;
+$whiteColor: #ffffff;
+$mainColor: #fd2966;
+$darkMainColor: #460E1E;
+$brownColor: #865656;
+$grayColor: #999999;
+
+* {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 55555;
+}
+
+.navbar-toggler {
+    color: transparent;
+}
+
+
+.changeColor {
+    background-color: $mainColor !important;
+    opacity: 0.8;
+}
+
+.addColor {
+    color: $mainColor;
+}
+
+
+.nav-item .nav-link {
+    color: $whiteColor;
+
+}
+
+.active {
+    color: $mainColor !important;
+}
+
+.active2 {
+    color: $darkMainColor !important;
+}
+
+.navbar-brand img {
+    width: 100px;
+}

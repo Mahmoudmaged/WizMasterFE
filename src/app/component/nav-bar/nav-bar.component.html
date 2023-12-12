@@ -1,0 +1,32 @@
+<nav  (scroll)="onWindowScroll($event)" class="navbar navbar-expand-lg  nav p-2" [ngClass]="{'changeColor': isNavbarScrolled}">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img class="img-fluid" src="../../../assets/Logo/logo2.png" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link home active" aria-current="page" (click)="ScrollIntoView('home')">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link BeDigital" (click)="ScrollIntoView('BeDigital')">Services</a>
+                </li>
+                <li class="nav-item">
+                    <p class="nav-link ourWorkS"  (click)="ScrollIntoView('ourWorkS')">portfolio</p>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ourTeam" (click)="ScrollIntoView('ourTeam')">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ourContact" (click)="ScrollIntoView('ourContact')">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>

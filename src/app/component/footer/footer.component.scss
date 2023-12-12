@@ -1,0 +1,75 @@
+$darkColor: #000000;
+$whiteColor: #ffffff;
+$mainColor: #fd2966;
+$darkMainColor: #460E1E;
+$brownColor: #865656;
+$grayColor: #999999;
+.div {
+   
+    background-image: linear-gradient($darkColor, $darkMainColor);
+}
+
+
+.div p {
+    font-size: 16px;
+}
+
+.div p a {
+    font-size: 16px;
+    text-decoration: none;
+    color: $whiteColor;
+    cursor: pointer;
+}
+
+.div p a:hover {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.div h3 {
+
+    font-size: 22px;
+}
+
+.div .socialIcons a{
+    margin-left: 2px ;
+
+}
+.div .socialIcons a i{
+    color: $mainColor;
+
+}
+
+.aboutDesc{
+    word-wrap: normal;
+}
+.socialLinks i{
+    cursor: pointer;
+    color: $whiteColor;
+}
+
+
+.foorterImage{
+    width: 120px;
+}
+
+.socialLinks{
+    color: $mainColor;
+}
+
+
+
+
+
+.brand{
+    width: 150px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .secCol{
+        padding: 10px !important;
+    }
+   
+
+}

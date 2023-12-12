@@ -1,0 +1,327 @@
+<section class="page">
+
+
+
+    <!--Start mainSection -->
+    <section id="home" class="mainSection mt-5 ">
+        <div class="container-md">
+            <div class="my-3">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-5 my-1">
+                        <div class="py-2 px-3">
+                            <div class="">
+                                <h1 class="head_title my-1">
+                                    The <span class="head_title_custom"> Magic</span> way to showcase your
+                                    work
+                                </h1>
+
+                                <div>
+                                    <button class="btn head_Btn">Start Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-7 my-1">
+                        <div class="py-2 px-3">
+                            <div>
+                                <img class="img-fluid" src="../../../assets/Web/WitchHat41.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End mainSection  -->
+    <!-- Start BeDigital -->
+    <section id="BeDigital" class="BeDigital">
+        <div class="container-md text-center mt-5 py-3">
+            <h3 class="head_title">We help our client to be <span class="head_title_custom"> digital</span></h3>
+            <div class="mb-2 cardContainer">
+                <div class="row align-items-center justify-content-center h-100">
+                    <div class="col-6  cardHoldLeft ">
+                        <div class="px-2 ">
+                            <div class="cardHolder  px-2">
+                                <img class="" src="../../../assets/Web/idea.png" alt="">
+                                <p>Web Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6  cardHoldRight">
+                        <div class="px-2 ">
+                            <div class="cardHolder  px-2">
+                                <img class="" src="../../../assets/Web/idea.png" alt="">
+                                <p>UI/UX Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-1 cardHoldLeft">
+                        <div class="px-2 ">
+                            <div class="cardHolder  px-2">
+                                <img class="" src="../../../assets/Web/blogging.png" alt="">
+                                <p>Branding</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 mb-1 cardHoldRight">
+                        <div class="px-2 ">
+                            <div class="cardHolder  px-2">
+                                <img class="" src="../../../assets/Web/analyse.png" alt="">
+                                <p>Analytics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End BeDigital -->
+
+    <!-- Start BeDigitalSec_Slider Section -->
+    <section class="BeDigitalSec">
+        <div class="container-md text-center mt-2">
+            <div class="customSliderHolder ">
+                <div class="mainSlideSec  px-5 py-2">
+                    <div class="row align-items-center rr py-5">
+                        <div class="col-2 arrow" (click)="beDigitalSliderPrevious()">
+                            <i class="fa fa-angle-left"></i>
+                        </div>
+                        <div class="col-4 customSliderHolder_caption">
+                            <h5>{{beDigitalSliderObject?.caption}}</h5>
+                        </div>
+
+                        <div class="col-4 customSliderHolder_caption">
+                            <img class="img-fluid" [src]="beDigitalSliderObject?.img" alt="">
+                        </div>
+                        <div class="col-2 arrow" (click)="beDigitalSliderNext()">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+
+                        <div class="col-12 text-start indicator">
+                            <h4 class="px-5">{{beDigitalSliderIndex>9?beDigitalSliderIndex : '0'+beDigitalSliderIndex}}
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="mainSlideSec_footer"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End BeDigitalSec_Slider Section -->
+
+    <!-- Start Work Section -->
+    <section id="ourWorkS" class="OurWork mt-5">
+        <div class="my-2">
+            <div class="row align-items-center">
+                <div class="col-3 col-md-4 col-lg-5 par py-1 bg-light"></div>
+                <div class="col-6 col-md-4 col-lg-2 title text-center">
+                    <h2>Our <span>Work</span></h2>
+
+                </div>
+                <div class="col-3 col-md-4 col-lg-5 par py-1  bg-light"></div>
+            </div>
+
+            <div class="ourWork_Caption my-3 text-center">
+                <p>Checkout the work we've done for our other clients.Our portfolio includes case studies fro work done
+                    for design, development ,social and etc...</p>
+            </div>
+
+
+            <div class="container-md my-2">
+                <div class="ourWorkCardContainer mt-2">
+                    <div class="row align-items-center">
+                        <div class="col-6 mt-2">
+                            <div class="px-2">
+                                <h4 class="text-center">PlaiBook</h4>
+                                <div class="ourWorkCardContainerHolder">
+                                    <img class="img-fluid" src="../../../assets/Web/Path.png" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="px-2">
+                                <a href="https://linkitqa.netlify.app/#/" target="_blank">
+                                    <h4 class="text-center">LinkIt</h4>
+                                    <div class="ourWorkCardContainerHolder">
+                                        <img class="img-fluid" src="../../../assets/Web/Path-1.png" alt="" srcset="">
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="px-2">
+                                <a href="https://sislimoda.com/#/admin/login" target="_blank">
+                                    <h4 class="text-center">Sislimoda</h4>
+                                    <div class="ourWorkCardContainerHolder">
+                                        <img class="img-fluid" src="../../../assets/Web/Path-2.png" alt="" srcset="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-6 mt-2">
+                            <div class="px-2">
+                                <a href="https://airasolution.netlify.app/#/" target="_blank">
+                                    <h4 class="text-center">AIRA</h4>
+                                    <div class="ourWorkCardContainerHolder">
+                                        <img class="img-fluid" src="../../../assets/Web/Path-3.png" alt="" srcset="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Work Section -->
+    <!-- Start team Section -->
+    <section id="ourTeam" class="Team mt-5">
+        <div class="my-2">
+            <div class="row ">
+                <div class="col-6 col-md-8 col-lg-4 title text-center">
+                    <h2>Our <span class="customWord">Team</span></h2>
+                    <p class="teamCaptionP">Our wonderful team makes it possible for us to do the thing we do. </p>
+
+
+                </div>
+                <div class="col-6 col-md-4 col-lg-8 ">
+                    <div class="par py-1  bg-light mt-1"></div>
+                </div>
+            </div>
+
+            <div class="teamSlider my-2">
+                <p-carousel [value]="products" styleClass="custom-carousel" [numVisible]="3" [numScroll]="1"
+                    [circular]="true" [autoplayInterval]="10000" [responsiveOptions]="responsiveOptions">
+
+                    <ng-template let-product pTemplate="item">
+                        <div class="product-item my-5 ">
+                            <div class="product-item-content ">
+                                <div class="px-2">
+                                    <div class="mb-3  text-center  xx">
+                                        <div class="imageContainer mt-5">
+                                            <img class="hatImage" src="../../../assets/Web/WitchHat41.png" alt="">
+                                            <img [src]="product.img" [alt]="product.name" class="product-image" />
+                                        </div>
+
+                                    </div>
+                                    <div class="text-center sliderCaptionHolder bg-light">
+                                        <h4 class="mb-1">{{product.name}}</h4>
+                                        <p class="w-75 m-auto">{{product.description}} </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- End team Section -->
+
+    <!-- Start Values Section -->
+    <section id="ourValues" class="Values mt-5">
+        <div class="my-2">
+            <div class="row ">
+                <div class="col-6 col-md-8 col-lg-4 title text-center">
+                    <h2>Our <span class="customWord">Values</span></h2>
+                    <p class="teamCaptionP">Our wonderful team makes it possible for us to do the thing we do. </p>
+
+
+                </div>
+                <div class="col-6 col-md-4 col-lg-8 ">
+                    <div class="par py-1  bg-light mt-1"></div>
+                </div>
+            </div>
+            <div class="my-2 container-md">
+                <div class="row align-items-center my-2 py-3">
+                    <div class="col-6 col-md-4">
+                        <div class="px-2">
+                            <div class="valuesList">
+                                <ul>
+                                    <li>
+                                        <h3>Engagement</h3>
+                                    </li>
+                                    <li>
+                                        <h3>Creativity</h3>
+                                    </li>
+                                    <li>
+                                        <h3>Scalability</h3>
+                                    </li>
+                                    <li>
+                                        <h3>Your Spell</h3>
+                                    </li>
+                                    <li>
+                                        <h3>Result</h3>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-8">
+                        <div class="px-2">
+                            <div class="w-100 text-start">
+                                <img class="img-fluid" src="../../../assets/Web/OpenedBook7.png" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Values Section -->
+    <!-- Start ContactUs Section -->
+    <section id="ourContact" class="contactUs mt-5">
+        <div class="my-2">
+            <div class="row ">
+                <div class="col-6 col-md-8 col-lg-4 title text-center">
+                    <h2>Contact <span class="customWord">Us</span></h2>
+                    <p class="teamCaptionP">Have a project we can help with?Give us call or reach out to us on social
+                        media.</p>
+
+
+                </div>
+                <div class="col-6 col-md-4 col-lg-8 ">
+                    <div class="par py-1  bg-light mt-1"></div>
+                </div>
+            </div>
+            <div class="my-2 container-md">
+                <div class="contactForm d-flex align-items-center p-5 my-5">
+                    <form action="" class=" m-auto">
+                        <div class="form-group mb-1">
+                            <p>Say Hi</p>
+                        </div>
+                        <div class="form-group mb-1">
+                            <input type="text" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="form-group mb-1">
+                            <input type="email" placeholder="Email Address" class="form-control">
+                        </div>
+                        <div class="form-group mb-1">
+                            <textarea placeholder="Message" rows="5" class="form-control"></textarea>
+                        </div>
+
+                        <div class="form-group my-2">
+                            <div>
+                                <button class="btn head_Btn">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Values Section -->
+</section>
